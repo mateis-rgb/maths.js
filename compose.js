@@ -25,15 +25,3 @@ function compose(forme, fnA, fnB) {
 }
 
 console.log(compose("fnA.fnB", "x^2-2", "e^x"));
-
-
-/**
- * Transforme une fonction composé en tableau de fonction.
- * fn est de forme
- * 
- * @param {String} fn 
- * @returns 
- */
-function decompose(fn) {
-    return [];
-}
